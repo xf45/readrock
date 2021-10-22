@@ -1,0 +1,143 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.outer
+{   
+    width:320px;
+    height:430px;
+    /* border:1px solid  rgb(238,43,51); */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top:-215px;
+    margin-left:-160px;
+    color:rgb(128,128,128);
+}
+.top
+{
+    display:flex;
+    width:270px;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.topLeft
+{
+    width:80px;
+}
+.topRight
+{
+    width:100px;
+    margin-right:0;
+    margin-left: 10px;
+    font-size: small;
+    vertical-align: middle;
+}
+.topRight img{
+    width:13px;
+    height:18px;
+    margin-left:4px;
+    vertical-align: middle;
+}
+.password-item input{
+    text-indent:25px;
+    vertical-align: middle;
+}
+.password-item img{
+    width:20px;
+    height:20px;
+    position:relative;
+    top:30px;
+    left:5px;
+    vertical-align: middle;
+}
+.password-item i{
+    width:15px;
+    height:15px;
+    background-position: -24px -24px;
+    background-image: url(../images/su.png);
+}
+.phoneNumber-item ,.password-item,.forget,.dengLu,.zhangHao,.select
+{
+    width:270px;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+.phoneNumber ,.password
+{
+    width:270px;
+    height:35px;
+  
+}
+
+.forget a{
+    text-decoration: none;
+    color:rgb(254,141,2);
+    font-size: small;
+    float:right;
+}
+.submit
+{   width:270px;
+    height:35px;
+    border: 1px solid #FFCB00;
+    background-color: #FFCB00;
+    margin-top: 15px;
+   
+}
+.regist a{
+    text-decoration: none;
+    color:rgb(254,141,2);
+}
+.text{
+    word-spacing:5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.text a{
+    text-decoration: none;
+    color:rgb(254,141,2);
+}
+.other{
+   
+      width:270px;
+      position: relative;
+      top:10px;
+      left:25px;
+
+
+}
+.title-w 
+{
+    border-top: 1px solid #ccc;
+    width:270px;
+    height:0;
+    margin-bottom:30px;
+    overflow: visible;
+    position:relative;
+}
+.title
+{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    background: #FFF;
+   
+}
+.other-a{
+    width:270px;
+    margin:0 auto;
+    text-align: center;
+}
+.other-a img
+{
+   width:18px;
+   height:18px;
+   margin-left: 20px;
+}
