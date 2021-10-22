@@ -1,0 +1,169 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .all {
+        width:1200px;
+        /* display:flex;
+        flex-flow:column; */
+        margin:0 auto;
+    }
+    
+    .all .first {
+        display: flex;
+        position: relative;
+    }
+    .first-i{
+        position: absolute;
+        right:0;
+    }
+    
+    .first-item {
+        display: inline-block;
+        margin-left: 25px;
+        font-family: "微软雅黑";
+        font-size: smaller;
+        color: black;
+        font-weight: bold;
+    }
+    .first-item1
+    {
+        display: inline-block;
+        margin-left: 25px;
+        font-family: "微软雅黑";
+        font-size: smaller;
+        /* font-weight: bold; */
+        color:black;
+    }
+    
+    
+    .all .first a:hover {
+        color: blue;
+    }
+    
+    .all .first .product {
+        background: rgb(0, 89, 255);
+        display: inline-block;
+        height: 20px;
+        width: 58px;
+        font-size: smaller;
+        text-align: center;
+        line-height: 20px;
+        margin-left: 25px;
+    }
+    
+    .all .first .product a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .second {
+        width: 700px;
+        margin: 140px auto;
+        display: flex;
+        flex-flow:column;
+        position: relative;
+        
+    }
+    
+    .second img {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        left:200px;
+        bottom:40px;
+      
+    }
+    
+    .second.input {
+        width: 639px;
+        height: 34px;
+    }
+    .input input{
+        height:34px;
+        line-height: 34px;
+    }
+    .all .second .shuru {
+        width: 539px;
+       
+        border: 1px solid dodgerblue;
+    }
+    
+    .all .second .ok {
+        width: 100px;
+        height:36px;
+        color: white;
+        background: #317ef3;
+        border: 1px solid #317ef3;
+        font-size: medium;
+        display: inline-block;
+        vertical-align: middle;
+
+    }
+    .third
+    {   width:700px;
+        margin:0 auto;
+        display: flex;
+        flex-flow:column;
+        position: relative;
+    }
+    .third img{
+        position:absolute;
+        left:250px;
+    }
+    .all .third .mobile {
+      
+        font-size: small;
+        font-weight: bold;
+        font-family: "微软雅黑";
+        width: 80px;
+        height: 20px;
+        position: absolute;
+        top:100px;
+        left: 250px;
+        text-align: center;
+    }
+
+    .all .third .b {
+        width:200px;
+        color: gray;
+        position: absolute;
+        top: 120px;
+        left:200px;
+        text-align: center;
+       
+    }
+    
+    .all .third .h {
+        position: absolute;
+        top: 180px;
+        left:90px;
+        width: 400px;
+        height: 20px;
+        color: gray;
+        text-align: center;
+    }
+    .h a{
+        display:inline-block;
+        font-family: "微软雅黑";
+        font-size: smaller;
+        color: gray;
+        margin-left: 20px;
+    }
+    
+    .all .third .r {
+        position: absolute;
+        top: 220px;
+        left: 70px;
+        width: 560px;
+        height: 20px;
+        color: gray;
+    }
+    
+    .r a {
+        
+        font-family: "微软雅黑";
+        font-size: smaller;
+        color: gray;
+    }
